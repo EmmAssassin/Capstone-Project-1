@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Emily Woolnough</title>
+
+    <style>
+        body {
+            margin: 0 20vw;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 50px;
+        }
+
+        #picture {
+            width: 100%;
+            display: flex;
+        }
+
+        #selfImg {
+            width: 200px;
+            margin: auto;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        #flexHeader {
+            display: flex;
+            align-items: center;
+        }
+
+        span > * {
+            margin: 0px;
+        }
+
+        span > p {
+            padding-left: 10px;
+        }
+
+        #date {
+            margin-top: 5px;
+        }
+
+        #experience > section > ul > li {
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EMILY WOOLNOUGH</h1>
+    </header>
+
+    <main>
+        <section id="picture">
+            <img src="./assets/imgs/Woolnough, Emily.jpg" alt="Picture of Emily Woolnough" id="selfImg">
+        </section>
+
+        <section id="summary">
+            <p>
+                Detail-oriented web developer with 3+ years of demonstrated experience in crafting accessible, and responsive digital solutions using Figma, HTML, CSS, JavaScript and React.js.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills:</h2>
+            <p>
+                HTML, CSS, SCSS/ SASS, JavaScript, React.js, SQL, Java, Node.js, User Experience Design, User Interface Design, Wireframing, Prototyping, Responsive Design.
+            </p>
+            <h2>Functional Skills/ Soft Skills:</h2>
+            <p>
+                Customer Service, Problem-Solving, Communication, Attention to Detail, Time Management.
+            </p>
+        </section>
+        
+        <section id="experience">
+            <h2>Relevant Experience:</h2>
+            
+            <section id="oxfordInstruments">
+                <span id="flexHeader"><h3>Web Developer, Oxford Instruments NanoScience |</h3><p>Abingdon, UK</p></span>
+                
+                <p id="date">(12/05/2025 – 04/07/2025)</p>
+                <p>
+                    Designed and enhanced user experiences based on client and end-user requirements, translating these into accessible, responsive React interfaces. 
+                    Implemented modular styling using SASS and LESS and ensured code quality and functionality through testing with Vitest, following usability and web development best practices.
+                </p>
+                <ul>
+                    <li>
+                        Improved design consistency and collaboration by 40% by organising projects and creating reusable FIGMA component library based on UX best practices and user needs.
+                    </li>
+                    <li>
+                        Working toward improved development efficiency, with an aim to reduce build time by 30% by creating reusable React component system.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="kpmgAustralia">
+                <span id="flexHeader"><h3>Consultant, KPMG Australia |</h3><p>Canberra ACT, Australia</p></span>
+                <p id="date">(12/02/2024 – 21/03/2025)</p>
+                <p>
+                    Collaborated as part of a cross-functional Agile team to define, design, and document accessible, user-centred web interfaces in Figma, aligned with WCAG standards and client requirements. 
+                    Using the Product Development Life Cycle (PDLC), I translated stakeholder input and research findings into structured design specifications, 
+                    working alongside developers and analysts to ensure usability best practices and readiness for implementation.
+                </p>
+                <ul>
+                    <li>
+                        Improved client and stakeholder engagement by 20%, as measured by reduced iteration cycles and increased satisfaction, by leading collaborative UX/UI design sessions from project initiation.
+                    </li>
+                    <li>
+                        Reduced user navigation errors by 15% by transforming the client’s platform interface through optimising the system’s colour contrast for improved accessibility.
+                    </li>
+                    <li>
+                        Improved team UX/UI capability, as measured by colleagues independently leading client design discussions within 6 months, by implementing and delivering targeted training sessions.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="australianBureauStatistics">
+                <h3 style="display: inline; padding: 0;">Development & Programming Officer, Australian Bureau of Statistics |</h3>
+                <p style="display: inline; padding-left:5px;">Belconnen ACT, Australia</p></span>
+                <p id="date">(17/01/2022 – 09/02/2024)</p>
+                <p>
+                    Developed and enhanced survey systems for the Australian Bureau of Statistics using React, JavaScript, HTML, and CSS, with a focus on improving accessibility and usability. 
+                    Worked within an Agile team using Jira for sprint planning, task tracking, and maintaining clear documentation of development progress. 
+                    Jira was integrated with GitHub to manage version control, ensuring consistent task naming and structured branching. 
+                    Also contributed to the development of internal staff tools to support operational efficiency.
+                </p>
+                <ul>
+                    <li>
+                        Enhanced accessibility of surveys by 50%, as measured by accessibility testing, by replacing non-semantic HTML with semantic elements and applying WCAG guidelines.
+                    </li>
+                    <li>
+                        Built responsive and accessible surveys that improved user engagement by 20%, by developing reusable components in React and implementing modern HTML, CSS, and JavaScript best practices.
+                    </li>
+                    <li>
+                        Improved team capability and contributed to two team members’ promotions, as evidenced by their skill growth and career progression, by leading regular check-ins, fostering continuous learning, and facilitating collaborative development sessions.
+                    </li>
+                    <li>
+                        Improved code quality and team efficiency, as measured by fewer merge conflicts and faster review cycles, by standardising Git workflows and providing guidance on version control best practices.
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="educationCertificates">
+            <h2>Education and Certificates:</h2>
+            <span id="flexHeader"><h3>University of Canberra |</h3>
+            <p>Bruce ACT, Australia</p></span>
+            <p id="date">(01/2018 – 06/2023)</p>
+            <table id="ucDegreeTable">
+                <tbody>
+                    <tr>
+                        <td style="padding-right: 50px;">
+                            <h4 style="margin: 0;">Bachelor of Information Technology:</h4>
+                            <ul>
+                                <li>Major in Information Systems</li>
+                                <li>Major in Software Engineering</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <h4 style="margin: 0;">Bachelor of Arts:</h4>
+                            <ul>
+                                <li>Major in Media Arts</li>
+                                <li>Major in Creative Games Design</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <span id="flexHeader"><h3>Google UX Design Specialization |</h3>
+            <p>Google</p></span>
+            <p id="date">(09/08/2025 - 27/10/2025)</p>
+            <p>Link to certificate and sub-certificates: <a href="https://www.coursera.org/account/accomplishments/specialization/246GJY7D1BKV">https://www.coursera.org/account/accomplishments/specialization/246GJY7D1BKV</a></p>
+            <ul>
+                <li>Foundations of User Experience (UX) Design - Grade: 99.44%</li>
+                <li>Start the UX Design Process: Empathize, Define, and Ideate - Grade: 94.37%</li>
+                <li>Build Wireframes and Low-Fidelity Prototypes - Grade: 86.65%</li>
+                <li>Conduct UX Research and Test Early Concepts - Grade: 90.62%</li>
+                <li>Create High-Fidelity Designs and Prototypes in Figma - Grade: 89.77%</li>
+                <li>Build Dynamic User Interfaces (UI) for Websites - Grade: 96.87%</li>
+                <li>Design a User Experience for Social Good & Prepare for Jobs - Grade: 96.70%</li>
+                <li>Accelerate Your Job Search with AI - Grade: 100%</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects:</h2>
+            <span id="flexHeader"><h3>Australian National University |</h3>
+            <p>Canberra ACT, Australia</p></span>
+            <p>
+                Worked alongside demographers at the Australian National University to design and develop the Australian Human Database. 
+                This database, inspired by the Human Mortality Database owned by the Max Planck Institute for Demographic Research, contains Australia’s data exclusively. 
+            </p>
+            <p>
+                My job was to focus on developing the website within a short period. I have since revisited the design as a REACT project to improve the overall accessibility and usability.
+            </p>
+            <p>Website: <a href="">https://aushd.org/</a></p>
+        </section>
+    </main>
+</body>
+</html>
